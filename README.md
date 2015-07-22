@@ -10,9 +10,9 @@ Includes:
 Build it with webpack!
 
 Scripts:
-- npm run server: start the server
-- npm run webpack: start watching and building
-- npm run tdd: start mocha in watch mode
+- `npm run server`: start the server
+- `npm run webpack`: start watching and building
+- `npm run tdd`: start mocha in watch mode
 
 
 Client entry point is `scripts/client.js`.
