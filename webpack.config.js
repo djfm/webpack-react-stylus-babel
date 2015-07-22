@@ -2,16 +2,16 @@ var webpack = require('webpack');
 
 var plugins = [];
 
-var production = false;
+var production = true;
 
 if (production) {
-    plugins.push([
+    plugins.push(
         new webpack.optimize.UglifyJsPlugin({
             compress: {
                 warnings: false
             }
         })
-    ]);
+    );
 }
 
 module.exports = {
