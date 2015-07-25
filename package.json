@@ -1,13 +1,13 @@
 {
-  "name": "webpack-react-stylus-babel",
+  "name": "v2chette",
   "version": "0.0.1",
-  "description": "Some boilerplate!",
+  "description": "Another take at Vachette.",
   "main": "scripts/server.js",
   "scripts": {
     "test": "node_modules/.bin/mocha --compilers js:mocha-traceur",
     "tdd": "node_modules/.bin/mocha -w --compilers js:mocha-traceur",
     "webpack": "node_modules/.bin/webpack -w",
-    "server": "node scripts/server.js"
+    "start": "node scripts/server.js"
   },
   "author": "fmdj <fm.de.jouvencel@gmail.com>",
   "license": "ISC",
@@ -33,6 +33,7 @@
     "node-libs-browser": "^0.5.2",
     "style-loader": "^0.12.3",
     "stylus-loader": "^1.2.1",
+    "traceur": "0.0.91",
     "url-loader": "^0.5.6",
     "webpack": "^1.10.1"
   }
